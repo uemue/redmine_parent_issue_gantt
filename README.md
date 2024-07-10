@@ -17,13 +17,13 @@ The Redmine Parent Issue Gantt Plugin enhances the Gantt chart view by including
 1. Clone the repository into your Redmine plugins directory. **Make sure to rename the directory to `parent_issue_gantt`**:
 
    ```sh
-   git clone https://github.com/yourusername/redmine_parent_issue_gantt.git /usr/src/redmine/plugins/parent_issue_gantt
+   git clone https://github.com/uemue/redmine_parent_issue_gantt.git plugins/parent_issue_gantt
    ```
 
    If you have already cloned the repository without renaming, you can manually rename the directory:
 
    ```sh
-   mv /usr/src/redmine/plugins/redmine_parent_issue_gantt /usr/src/redmine/plugins/parent_issue_gantt
+   mv plugins/redmine_parent_issue_gantt plugins/parent_issue_gantt
    ```
 
 2. Restart your Redmine instance.
