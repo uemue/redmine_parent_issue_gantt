@@ -30,7 +30,7 @@ The Redmine Parent Issue Gantt Plugin enhances the Gantt chart view by including
 
 ## Usage
 
-Once the plugin is installed, the Gantt chart will include parent issues when displaying child issues only if the URL ends with the parameter `?include_parent_issues=1`. This is provided as a hidden feature to prevent performance degradation due to the N+1 query issue.
+Once the plugin is installed, the Gantt chart will include parent issues when displaying child issues only if the URL ends with the parameter `&include_parent_issues=1`. This is provided as a hidden feature to prevent performance degradation due to the N+1 query issue.
 
 ## Compatibility
 
